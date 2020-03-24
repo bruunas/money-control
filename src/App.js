@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
+import config from './config'
 
 const Container = styled.div`
-  background: red;
+  background: ${config.colors.red};
 `
 
 const App = () => {
